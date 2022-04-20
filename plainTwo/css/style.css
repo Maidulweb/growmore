@@ -88,7 +88,11 @@ body {
 }
 
 .footer {
-    background: #977410;
+    background-image: -webkit-linear-gradient(135deg, #B47300,#f7aa00 51%, #FFBE00 100%);
+
+    background-image: linear-gradient(135deg,  #B47300,#f7aa00 51%, #FFBE00 100%);
+    transition: .5s;
+    -webkit-transition: .5s;
     color: #f9fcff;
     overflow: hidden;
     padding: 60px 10%;

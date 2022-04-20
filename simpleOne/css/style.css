@@ -28,14 +28,18 @@ body {
     padding-top: 38px;
 }
 .menu-bar {
-    background: #FFBE00;
+    background-image: -webkit-linear-gradient(135deg, #B47300,#f7aa00 51%, #FFBE00 100%);
+
+    background-image: linear-gradient(135deg,  #B47300,#f7aa00 51%, #FFBE00 100%);
+    transition: .5s;
+    -webkit-transition: .5s;
     padding: 4px 10px 2px 10px;
     border-radius: 4px;
     cursor: pointer;
     transition: all .3s;
 }
 .menu-bar:hover {
-    background: #EC407A;
+    background: #FFBE00;
 }
 
 .menu-bar .fa-bars {
@@ -82,7 +86,11 @@ body {
     background: #FFBE00;
 }
 .main-body-right {
-    background: #FFBE00;
+    background-image: -webkit-linear-gradient(135deg, #B47300,#f7aa00 51%, #FFBE00 100%);
+
+    background-image: linear-gradient(135deg,  #B47300,#f7aa00 51%, #FFBE00 100%);
+    transition: .5s;
+    -webkit-transition: .5s;
     padding: 40px 20px;
     border-radius: 8px;
 }
@@ -119,7 +127,11 @@ body {
 }
 
 .footer {
-    background: #977410;
+    background-image: -webkit-linear-gradient(135deg, #B47300,#f7aa00 51%, #FFBE00 100%);
+
+    background-image: linear-gradient(135deg,  #B47300,#f7aa00 51%, #FFBE00 100%);
+    transition: .5s;
+    -webkit-transition: .5s;
     color: #f9fcff;
     overflow: hidden;
     padding: 60px 10%;
