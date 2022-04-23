@@ -144,27 +144,16 @@ img {
 }
 
 .logo {
-    padding-top: 20px;
+    padding-top: 30px;
 }
-.logo h2 {
-    color: #FFBE00;
-    font-size: 50px;
-    font-weight: 900;
-    animation-name: rotate-up;
-    animation-duration: 0.3s;
-    animation-delay: 0.3s;
-    margin-bottom: 0;
-}
-.logo p {
-    color: #EC407A;
-    margin-bottom: 0;
-    text-align: center;
+.logo img {
+    width: 270px;
 }
 .sec-color {
     color: #EC407A;
 }
 .menu {
-    padding-top: 38px;
+    padding-top: 30px;
 }
 .menu-bar {
     background: linear-gradient(135deg, #3a3737,#750c2e 51%, #bb1616 0);

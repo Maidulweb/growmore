@@ -1,0 +1,26 @@
+.main-body-slanted {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 12rem 0 6rem 0;
+    overflow: hidden;
+}
+.slanted-bg {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #3a3737,#750c2e 51%, #bb1616 100%);
+    transform: skewY(-5deg);
+    transform-origin: top right;
+}
+.slanted-content {
+    position: relative;
+   
+}
+.slanted-img-abs {
+    position: relative;
+}
