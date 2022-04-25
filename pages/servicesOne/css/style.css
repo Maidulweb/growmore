@@ -24,6 +24,17 @@ h6 {
 .ptb-60 {
     padding: 60px 0;
 }
+.main-hr {
+    background: #bb1616;
+    width: 150px;
+    margin: 12px auto;
+    padding: 2px 0;
+    opacity: .5;
+}
+.active {
+    border-bottom: 2px solid #bb1616;
+    font-weight: 700;
+}
 .header {
     height: 120px;
 }
@@ -83,8 +94,13 @@ display: inline-block;
     box-shadow: rgb(0 0 0 / 35%) 0px 2px 5px;
     transition: all .3s;
 }
+.growmore-banner-text {
+    background: rgba(236, 236, 236, .5);
+    padding: 30px;
+    text-align: center;
+}
 .main-body {
-   padding: 60px 0 0px 0;
+   padding: 60px 0 30px 0;
 }
 .main-body-title{
     text-align: center;
@@ -93,6 +109,18 @@ display: inline-block;
 
 .main-body-title .main-body-right-hr {
     background: #bb1616;
+}
+.growmore-services-item {
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    height: 340px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.growmore-services-item h6 {
+    padding-top: 20px;
 }
 .main-body-right {
     padding: 0px 20px;
