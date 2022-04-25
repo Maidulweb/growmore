@@ -18,7 +18,56 @@
     <link rel="stylesheet" href="css/font-awesome/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        #photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    4;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+}
 
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+#photos img:hover{
+  opacity: .7;
+}
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+    </style>
 </head>
 
 <body>
@@ -31,11 +80,11 @@
                 </div>
                 <div class="new-menu">
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Projects</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href=""><span class="active">Contact</span></a></li>
+                                <li><a href="../allOneText/index.html">Home</a></li>
+                                <li><a href="../servicesOne/index.html">Services</a></li>
+                                <li><a href="../projectsOne/index.html"><span class="active">Projects</span></a></li>
+                                <li><a href="../aboutOne/index.html">About Us</a></li>
+                                <li><a href="../contactOne/index.html">Contact</a></li>
                             </ul>
                 </div>
             </div>
@@ -48,52 +97,46 @@
             <div class="grow-more-banner">
             <div class="container">
                     <div class="growmore-banner-text">
-                        <h3>Contact Us</h3>
-                       
+                        <h3>OUR PROJECTS</h3>
+                        <hr class="main-hr">
+                        <h6 class="pt-1 pb-3">GROWMORE LIMITED is working as the Architectural and Structural Consultant for more than 10 Years. Our creative and innovative design concepts rank us as the Best Architectural Firm in Dhaka, Bangladesh. We always believe in  efficient customer supports and unique design ideas in every aspects of our engagements.</h6>
+                   
                        </div>
             </div>
             </div>
         
         </div>
     </div>    
-    <div class="about ptb-60">
+    <div class="projects ptb-60">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="contact-left">
-                        <h2>Contact Us</h2>
-                    <hr class="noticed-hr">
-                    <p>Al Raqqat Street, Abu Dhabi, P.O Box 3282</p>
-                    <p>363, Road 27, DOHS, Mohakhali, Dhaka</p>
-                    <p>+971 - 50338 3425</p>
-                    <p>+880 - 1730576286</p>
-                    <p>shafrinef@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6 offset-md-1">
-                <div class="contact-form">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          </div>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Phone</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Website</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form>
-                </div>
-                </div>
-            </div>
+          <div class="text-center">
+              <h4>OUR FEATURED PROJECTS</h4>
+              <hr class="growmore-hr">
+              <p class="ptb-10">We have successfully handled more than 100 Projects in Dhaka, Chittagong, Khulna, Rajshahi, Sylhet and many other prime locations in Bangladesh.</p>
+          </div>
+          <div class="project-body">
+
+              <div id="photos">
+                <img src="https://images.unsplash.com/photo-1422360902398-0a91ff2c1a1f?dpr=1&auto=compress,format&fit=crop&w=716&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1469692422776-14abcfa4b525?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=">
+                <img src="https://images.unsplash.com/photo-1472073834672-adb08feda350?dpr=1&auto=compress,format&fit=crop&w=334&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1500305444797-4f07d56c170a?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+
+                
+                <img src="https://images.unsplash.com/photo-1469692422776-14abcfa4b525?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=">
+                <img src="https://images.unsplash.com/photo-1422360902398-0a91ff2c1a1f?dpr=1&auto=compress,format&fit=crop&w=716&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1500305444797-4f07d56c170a?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1476817198778-f2926d0a4fc1?dpr=1&auto=compress,format&fit=crop&w=334&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+
+
+                <img src="https://images.unsplash.com/photo-1472073834672-adb08feda350?dpr=1&auto=compress,format&fit=crop&w=334&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1500305444797-4f07d56c170a?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1422360902398-0a91ff2c1a1f?dpr=1&auto=compress,format&fit=crop&w=716&h=&q=80&cs=tinysrgb&crop=" alt="Serious cat">
+                <img src="https://images.unsplash.com/photo-1469692422776-14abcfa4b525?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=">
+               
+               
+              </div>
+          </div>
         </div>
     </div>
  
